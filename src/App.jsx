@@ -9,8 +9,10 @@ function App() {
   return (
     <>
     <h1>holaaaaaa</h1>
+    <h1>my name is nitin rana</h1>
     </>
   )
 }
 
 export default App
+
