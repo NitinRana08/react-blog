@@ -1,14 +1,25 @@
-import Header from "./header"
-
-
 function App(){
   return(
     <div>
-     <Header/>
-    <h1>hello, i m nitin</h1>
-    <h1>rana</h1>
+      <h1>first component</h1>
+      <Fruit/>
+      <Nitin/>
     </div>
   )
+}
+
+function Fruit()
+{
+  return (
+    <h2>nitin rana second component</h2>
+  )
+}
+
+const Nitin=()=>{
+  return(
+    <h3>Rana nitin the thired component</h3>
+  )
+
 }
 
 export default App
